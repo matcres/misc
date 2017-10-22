@@ -1,0 +1,7 @@
+# Links Simbolicos a los direcotorios del Perfil Personal
+mv ./Desktop ./Desktop.old && ln -s ../profile/Desktop Desktop
+mv ./Documents ./Documents.old && ln -s ../profile/Documents Documents
+mv ./Downloads ./Downloads.old && ln -s ../profile/Downloads Downloads
+mv ./Pictures ./Pictures.old && ln -s ../profile/Pictures Pictures
+mv ./Videos ./Videos.old && ln -s ../profile/Videos Videos
+mv ./Music ./Music.old && ln -s ../profile/Music Music
